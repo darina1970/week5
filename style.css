@@ -1,0 +1,161 @@
+.header__wrapper {
+    /* Блочная модель */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 6px 0px;
+    margin: 47px 138.5px 18px 141px;
+    width: 1160.58px;
+    height: 40px;
+    /* Типографика */
+    font-size: 17px;
+    color: rgba(33, 40, 50, 1);
+    /* Оформление */
+    border: 5px solid black;
+}
+
+a,
+a:hover {
+    /* Блочная модель */
+    display: inline-block;
+    /* Типографика */
+    color: rgba(33, 40, 50, 1);
+    /* Оформление */
+    text-decoration: none;
+}
+
+a:visited {
+    color: green;
+}
+
+a:active {
+    color: red;
+}
+
+.header {
+    background-color: white;
+}
+
+.container {
+    max-width: 1230px;
+    margin: 0 auto;
+}
+
+.nav__link {
+    margin: 6px 56px;
+}
+
+.dropbtn {
+    border: none;
+    cursor: pointer;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.button {
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.button:hover {
+    color: #ffffff;
+    background-color: #0f1528;
+}
+
+.herocontent__wrapper {
+    margin-top: 18px;
+    margin-left: 137px;
+    width: 1200.87px;
+    height: 764px;
+}
+
+.textcontent__wrapper {
+    width: 630px;
+    height: 535px;
+}
+.main__image {
+    width: 783.87px;
+    height: 764px;
+    background-image: url(./assets/images/topimage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right;
+}
+
+#tagline {
+    /* Блочная модель */
+    margin-top: 130px;
+    margin-bottom: 24px;
+    /* Типографика */
+    color: rgba(223, 105, 81, 1);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+h1 {
+    /* Позиционирование */
+    line-height: 89px;
+    /* Типографика */
+    color:rgba(24, 30, 75, 1);
+    text-align: left;
+    font-size: 84px;
+    font-family: 'Volkhov', serif;
+    font-weight: bold;
+}
+
+#info__button {
+    /* Блочная модель */
+    padding: 19px 27px;
+    /* Типографика */
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 18px;
+    /* Оформление */
+    background-color: rgba(241, 165, 1, 1);
+    border-radius: 10px;
+}
+
+.services__container {
+    max-width: 1230px;
+    max-height: 525px;
+    margin: 97px 58px 123px 154px;
+}
+
+h2 {
+    /* Типографика */
+    color:rgba(20, 24, 62, 1);
+    font-size: 50px;
+    text-align: center;
+}
+
+.services__wrapper {
+    /* Блочная модель */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* Типографика */
+    font-size: 27px;
+    font-weight: 600;
+    color: rgba(30, 29, 76, 1);
+}
+
+.services__wrapper img {
+    width: 92px;
+    height: 78px;
+}
+
+.destinations__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
